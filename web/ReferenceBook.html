@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/style_reference.css" rel="stylesheet">
+    <script src="JavaScript/reference_run_script.js" type="module"></script>
+    <title>Reference book creator</title>
+</head>
+<body>
+    <form method="get" action="/TrainTrafficApplication/authorization">
+        <input type="submit" value="Sign out">
+    </form>
+    <h2>Reference book creator</h2>
+    <input type="radio" name = "reference" value = "trains_checked"><label>Trains</label><br>
+    <input type="radio" name = "reference" value = "stations_checked"><label>Station</label>
+    <div id="search_trains">
+        <select id="select">
+            <option selected>select data</option>
+            <option value="1">all trains</option>
+            <option value="2">trains by station and arrival time</option>
+            <option value="3">trains sort by travel time</option>
+        </select>
+    </div>
+    <div id="input_search_box"></div>
+    <div id="input_box"></div>
+        <button id="add_button">Add</button>
+        <button id="change_button">Change</button>
+        <button id="remove_button">Remove</button>
+    <div id="data_list">
+        <table id="data"></table>
+    </div>
+</body>
+</html>

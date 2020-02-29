@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+#table_input td{
+    border: none;
+    padding-top: 10px;
+}
+#table_input{
+    margin-top: 50px;
+    border: none;
+}
+#employees_table,trains_table, td, th {
+    border: 1px solid black;
+}
+
+td, th {
+    padding-top: 3px;
+    border: 1px solid black;
+}
+th {
+    background: #b0e0e6;
+}
+
+#input_box p{
+    margin-top: 0px;
+}
+
+#input_box div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#input_box{
+    margin-bottom: 20px;
+}
+#search_time_table{
+    height: 0px;
+    visibility: hidden;
+}
+.error {
+    background: red;
+}

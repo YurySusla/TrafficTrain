@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/style_hr.css" rel="stylesheet">
+    <script src="JavaScript/hr_run_script.js" type="module"></script>
+    <title>Human Resources Department</title>
+</head>
+<body>
+    <form method="get" action="/TrainTrafficApplication/authorization">
+        <input type="submit" value="Sign out">
+    </form>
+    <h3>Human Resources Department</h3>
+    <select id="select">
+           <option selected>select data</option>
+           <option value="1">all employees</option>
+           <option value="2">employees with age</option>
+           <option value="3">experienced employees</option>
+           <option value="4">employees with a profession</option>
+           <option value="5">employees on a specific train per day</option>
+    </select>
+    <div id="input_search_box"></div>
+    <div id="input_box"></div>
+    <button id="add_button">Add employee</button>
+    <button id="change_button">Change</button>
+    <button id="remove_button">Remove employee</button>
+    <div id="employees_list">
+        <table id="employees"></table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/style_authorization.css" rel="stylesheet">
+    <script src="JavaScript/user_authorization.js" type="module"></script>
+    <link style="">
+    <title>AuthorizationPage</title>
+</head>
+<body>
+    <div id="IdentificationFormDiv">
+        <h3>Enter your login and password</h3>
+        <form id="identification_form" action="/TrainTrafficApplication/authorization" method="post">
+            <p>Login:
+                <input name="login" type="text" placeholder="User name"></p>
+            <p>Password:
+                <input name="password" type="password" placeholder="enter more then 6 symbols" autocomplete="off"></p>
+        </form>
+        <button id="submit">Enter</button>
+    </div>
+    <div id="info"></div>
+</body>
+</html>

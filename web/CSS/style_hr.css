@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+td, th {
+    border: 1px solid black;
+}
+th {
+    background: #b0e0e6;
+}
+
+#input_box p{
+    margin-top: 0px;
+}
+
+#employees_list  {
+    margin-top: 10px;
+}
+
+#input_box div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#input_box{
+    margin-bottom: 20px;
+}
+#select{
+    margin-bottom: 20px;
+}
+#input_search_box p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.error {
+    background: red;
+}

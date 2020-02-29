@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/style_dispatcher.css" rel="stylesheet">
+    <script src="JavaScript/dispatcher_run_script.js" type="module"></script>
+    <title>Dispatcher</title>
+</head>
+<body>
+    <form method="get" action="/TrainTrafficApplication/authorization">
+        <input type="submit" value="Sign out">
+    </form>
+    <h2>Dispatcher</h2>
+        <input type="radio" name = "reference" value = "staff_checked"><label>Staff</label><br>
+        <input type="radio" name = "reference" value = "time_table_checked"><label>TimeTable</label>
+        <br><br>
+    <div id="search_time_table">
+        <select id="select">
+            <option selected>select data</option>
+            <option value="1">timetable</option>
+            <option value="2">timetable by type of train</option>
+            <option value="3">timetable by type of train and station</option>
+        </select>
+    </div>
+    <div id="input_search_box"></div>
+    <div id="input_box"></div>
+        <button id="add_button">Add</button>
+        <button id="change_button">Change</button>
+        <button id="remove_button">Remove</button>
+    <div id="data_list">
+        <table id="data"></table>
+    </div>
+</body>
+</html>
